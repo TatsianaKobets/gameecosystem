@@ -1,6 +1,8 @@
-package org.example.gameecosystem.object;
+package org.example.gameecosystem.entity.object;
 
 import org.example.gameecosystem.entity.Creature;
+import org.example.gameecosystem.entity.EntitySimulation;
+import org.example.gameecosystem.logic.MapSimulation;
 
 /**
  * Травоядное, наследуется от Creature.
@@ -13,4 +15,8 @@ public class Herbivore extends Creature {
     super(speed, hp);
   }
 
+  @Override
+  public void makeMove(MapSimulation map) {
+    super.makeMove(map);
+  }
 }

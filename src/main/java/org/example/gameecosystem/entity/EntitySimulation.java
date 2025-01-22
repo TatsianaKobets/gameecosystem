@@ -1,8 +1,10 @@
 package org.example.gameecosystem.entity;
+
 /**
  * Корневой абстрактный класс для всех существ и объектов существующих в симуляции.
  */
 public abstract class EntitySimulation {
+
   private int x;
   private int y;
 
